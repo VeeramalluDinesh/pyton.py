@@ -1,0 +1,12 @@
+#Global variables
+x="Abhiram"
+def func():
+  print("Name:"+x) #inside function
+func()
+print("Name:"+x)  #outside function
+# using global keyword
+x="Dinesh"
+def func():
+ global x
+ print("Name:"+x)
+func()
