@@ -4,7 +4,7 @@ def traverse_dict(data, level=0):
             print("  " * level + f"{key}:")
             traverse_dict(value, level + 1)
         else:
-            print("  " * level + f"{key}: {value}"
+            print("  " * level + f"{key}: {value}")
 
 data = {
     "a": 1,
